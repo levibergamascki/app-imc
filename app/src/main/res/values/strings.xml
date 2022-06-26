@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">app-imc</string>
+    <string name="rdbhomem">Homem</string>
+    <string name="rdbmulher">Mulher</string>
+    <string name="dicav1">Digite seu peso</string>
+    <string name="dicav2">Digite sua altura</string>
+    <string name="btncalcular">Calcular IMC</string>
+</resources>
