@@ -2,10 +2,8 @@ package com.example.app_imc;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
@@ -36,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
         double result = peso/(altura*altura);
         resultadonum.setText(Double.valueOf(result).toString());
-        if (sexohomem.isChecked() == true && sexomulher.isChecked() == false) {
+        if (sexohomem.isChecked()) {
             if(result < 20){
                 resultadotx.setText("Abaixo do normal");
             } else if(result >= 20 && result <= 24.9) {
