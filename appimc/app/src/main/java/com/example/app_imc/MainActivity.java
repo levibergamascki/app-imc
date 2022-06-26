@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         double result = peso/(altura*altura);
         resultadonum.setText(Double.valueOf(result).toString());
-        if (sexohomem.isChecked() == true && sexomulher.isChecked() == false) {
+        if (sexohomem.isChecked()) {
             if(result < 20){
                 resultadotx.setText("Abaixo do normal");
             } else if(result >= 20 && result <= 24.9) {
