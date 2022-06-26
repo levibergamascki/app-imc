@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">app0306</string>
+    <string name="dican1">Digite um número</string>
+    <string name="dican2">Digite outro número</string>
+    <string name="txtbtn">+</string>
+    <string name="txtbtn2">-</string>
+    <string name="txtbtn3">*</string>
+    <string name="txtbtn4">/</string>
+</resources>
